@@ -4,9 +4,10 @@ import myImage from './IMG_20220224_091659-01.jpeg';
 
 export default function Project() {
   return (
-    <div>
+    <>
+    <div className="p">
       <section className="project section">
-        <div className="project_container bd-gird">
+        <div className="project_container ">
           <div className="project_data">
             <h2 className="section-title project_title">
               Have you thought about a project?
@@ -23,7 +24,8 @@ export default function Project() {
           <img src={myImage} alt="" className="project_img" />
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }
 

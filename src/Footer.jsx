@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div>
       <footer className="footer section">
-        <div className="footer_container bd-gird">
+        <div className="footer_container ">
           <h1 className="footer_title">Kuldeep</h1>
           <p className="footer_description">
             This is my personal website and you can contact me here if you have

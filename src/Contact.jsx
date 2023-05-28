@@ -2,7 +2,7 @@ import React from "react";
 export default function App(){
     return (
 <div>
- <section className="contact_section" id="Contact">
+ <section className="contact_section " id="Contact">
   <span className="section-subtitle">Contact Me</span>
   <h2 className="section-title">Get In Touch</h2>
 

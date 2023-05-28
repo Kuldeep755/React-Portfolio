@@ -10,6 +10,7 @@ import Contact from "./Contact"
 import Footer from "./Footer"
 import 'boxicons/css/boxicons.min.css';
 import New from "./New"
+
 import './App.css';
 
 function App (){
@@ -18,6 +19,7 @@ function App (){
         <Sidebar title="Home" Abouttext="About Me" Skilstext="Skills" Contact="Contact Me" myresume="Resume" myCertification="Certification"></Sidebar>
         <Main></Main>
         <About></About>
+        
         <Skills></Skills>
         <Education></Education>
         <Service></Service>
@@ -25,7 +27,6 @@ function App (){
         <Contact></Contact>
         <Footer></Footer>
         <New></New>
-
         </div>
         );      
 }

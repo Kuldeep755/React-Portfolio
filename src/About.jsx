@@ -7,14 +7,11 @@ export default function About ( ){
       <span className="section-subtitle">My intro</span>
       <h2 className="section-title">About Me</h2>
 
-      <div className="about_container bd-gird">
+      <div className="about_container">
         <div className="about_data">
           <p className="about_description">
             I am kuldeep and I am originally from Ajmer Rajasthan. At the moment, I live in Bangalore. I have just completed my graduation from MDS University Ajmer ,and i am presently looking for a good opportunity where i can contribute my knowledge and grow my skills. And I know HTML , CSS and JavaScript . Currently, I'm learning React </p>
-          <img
-            src="[removal.ai]_c6ca4f03-c7df-4575-8edd-9c8c86a0d583.png"
-            alt=""
-            className="about_img"/>
+          
         </div>
         <div>
           <div className="about_information">

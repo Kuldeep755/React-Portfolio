@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from "prop-types"
 import resumePDF from './Kuldeep.pdf';
 
  export default function Sidebar(props) {
@@ -31,5 +32,12 @@ import resumePDF from './Kuldeep.pdf';
     </header>
     </div>
   );
+}
+Sidebar.propTypes={
+  title : propTypes.string,
+  Abouttext :propTypes.string,
+}
+Sidebar.defaultProps={
+  Skilstext : propTypes.string,
 }
 
