@@ -326,6 +326,7 @@ img{
 }
 .education_container{
     row-gap: 2rem;
+    margin-bottom: 1rem;
 
 }
 .education_content{

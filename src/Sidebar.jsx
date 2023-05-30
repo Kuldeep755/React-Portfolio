@@ -1,6 +1,7 @@
 import React from 'react';
 import propTypes from "prop-types"
 import resumePDF from './Kuldeep.pdf';
+import Certification from './Certfication';
 
  export default function Sidebar(props) {
   return (
@@ -24,7 +25,7 @@ import resumePDF from './Kuldeep.pdf';
             <li className="nav_item"><a href="#Skills" className="nav_link">{props.Skilstext}</a></li>
             <li className="nav_item"><a href="#Contact" className="nav_link">{props.Contact}</a></li>
             <li className="nav_item"><a href={resumePDF} className="nav_link">{props.myresume}</a></li>
-            <li className="nav_item"><a href="#Certification" className="nav_link">{props.myCertification}</a>
+            <li className="nav_item"><a href={Certification} className="nav_link">{props.myCertification}</a>
             </li>
           </ul>
         </div>
